@@ -117,7 +117,7 @@ class ProductsCtrl {
 
   // indexProductRelation ===================
   async indexProductRelation(req, res) {
-    const nameCategory = req.params
+    // const nameCategory = req.params
 
     try {
       const productRelation = await ProductsModel.find({ category: "Sport" })
